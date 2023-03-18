@@ -11,7 +11,7 @@ import SwiftUI
 struct SampleCulenderUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TimelineView(events: Event.mockEvents)
         }
     }
 }

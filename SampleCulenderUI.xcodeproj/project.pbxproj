@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		6F5A2D6529C538C100DE70AB /* SampleCulenderUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A2D6429C538C100DE70AB /* SampleCulenderUIApp.swift */; };
-		6F5A2D6729C538C100DE70AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A2D6629C538C100DE70AB /* ContentView.swift */; };
 		6F5A2D6929C538C200DE70AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A2D6829C538C200DE70AB /* Assets.xcassets */; };
 		6F5A2D6C29C538C200DE70AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A2D6B29C538C200DE70AB /* Preview Assets.xcassets */; };
+		6F5A2D8329C554D300DE70AB /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A2D8229C554D300DE70AB /* Event.swift */; };
+		6F5A2D8529C5569000DE70AB /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A2D8429C5569000DE70AB /* Date+.swift */; };
+		6F5A2D8929C59F3400DE70AB /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A2D8829C59F3400DE70AB /* EventView.swift */; };
+		6F5A2D8B29C59F4900DE70AB /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A2D8A29C59F4900DE70AB /* TimelineView.swift */; };
+		6F5A2D8D29C5A7D300DE70AB /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A2D8C29C5A7D300DE70AB /* BackgroundView.swift */; };
+		6F5A2D8F29C5A7EE00DE70AB /* EventTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A2D8E29C5A7EE00DE70AB /* EventTimelineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6F5A2D6129C538C100DE70AB /* SampleCulenderUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleCulenderUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5A2D6429C538C100DE70AB /* SampleCulenderUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCulenderUIApp.swift; sourceTree = "<group>"; };
-		6F5A2D6629C538C100DE70AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6F5A2D6829C538C200DE70AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F5A2D6B29C538C200DE70AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F5A2D8229C554D300DE70AB /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		6F5A2D8429C5569000DE70AB /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		6F5A2D8829C59F3400DE70AB /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		6F5A2D8A29C59F4900DE70AB /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		6F5A2D8C29C5A7D300DE70AB /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		6F5A2D8E29C5A7EE00DE70AB /* EventTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTimelineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				6F5A2D6429C538C100DE70AB /* SampleCulenderUIApp.swift */,
-				6F5A2D6629C538C100DE70AB /* ContentView.swift */,
+				6F5A2D8429C5569000DE70AB /* Date+.swift */,
+				6F5A2D8229C554D300DE70AB /* Event.swift */,
+				6F5A2D8829C59F3400DE70AB /* EventView.swift */,
+				6F5A2D8A29C59F4900DE70AB /* TimelineView.swift */,
+				6F5A2D8E29C5A7EE00DE70AB /* EventTimelineView.swift */,
+				6F5A2D8C29C5A7D300DE70AB /* BackgroundView.swift */,
 				6F5A2D6829C538C200DE70AB /* Assets.xcassets */,
 				6F5A2D6A29C538C200DE70AB /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F5A2D6729C538C100DE70AB /* ContentView.swift in Sources */,
+				6F5A2D8D29C5A7D300DE70AB /* BackgroundView.swift in Sources */,
+				6F5A2D8529C5569000DE70AB /* Date+.swift in Sources */,
+				6F5A2D8329C554D300DE70AB /* Event.swift in Sources */,
+				6F5A2D8F29C5A7EE00DE70AB /* EventTimelineView.swift in Sources */,
+				6F5A2D8B29C59F4900DE70AB /* TimelineView.swift in Sources */,
+				6F5A2D8929C59F3400DE70AB /* EventView.swift in Sources */,
 				6F5A2D6529C538C100DE70AB /* SampleCulenderUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
